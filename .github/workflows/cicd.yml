@@ -19,4 +19,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: YOUR_DOCKERHUB_USER/ci-cd-flask:latest
+          tags: aatall/ci-cd-flask:latest
