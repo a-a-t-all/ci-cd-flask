@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
 app = Flask(__name__)
 
-@app.get(/)
+@app.get("/")
 def hello():
     return jsonify(status=ok, message=Hello from CI/CD!)
 
