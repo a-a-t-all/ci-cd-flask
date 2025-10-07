@@ -1,0 +1,30 @@
+# Git & local repo files
+.git
+.gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.pub
+
+# Local configs / IDE junk
+.vscode/
+.idea/
+.DS_Store
+
+# Build artifacts
+dist/
+build/
+

@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Secrets & configs
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.pub
+
+# Build & dist
+dist/
+build/
+*.egg-info/
+
+# IDE/editor files
+.vscode/
+.idea/
+.DS_Store
+
